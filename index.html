@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swift-Fetch GH</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    nav {
+      background-color: #ff8c00;
+      padding: 1em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      margin: 0 1em;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #ffe4b5; }
+
+    header {
+      background-color: #fff0e0;
+      text-align: center;
+      padding: 2em 1em;
+    }
+    header img {
+      width: 90px;
+      border-radius: 50%;
+    }
+    .tagline {
+      font-size: 1.3em;
+      margin-top: 0.5em;
+    }
+    .btn {
+      display: inline-block;
+      margin: 1em;
+      background-color: #ff8c00;
+      color: white;
+      padding: 0.8em 1.3em;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: transform 0.2s;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      background-color: #ff9933;
+    }
+    section { padding: 2em 1em; }
+    h2 { text-align: center; margin-bottom: 1em; }
+    .card {
+      background-color: #fff;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 1em auto;
+      width: 85%;
+      text-align: center;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 140px;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5em 1em;
+      margin-top: 2em;
+    }
+    footer a { color: #ffe4b5; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="order.html">Order</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <img src="https://images.unsplash.com/photo-1614448553874-cf2d2850fe46?crop=entropy&cs=tinysrgb&fit=crop&h=150&w=150" alt="Swift-Fetch GH Logo" />
+    <h1>Swift-Fetch GH</h1>
+    <p class="tagline">Skip the stress. Shop the Swift way. 🛍️</p>
+    <a class="btn" href="https://wa.me/233505562658" target="_blank">WhatsApp Order</a>
+    <a class="btn" href="https://forms.gle/1NDyHG5So3vykBUR6" target="_blank">Google Form Order</a>
+  </header>
+
+  <section>
+    <h2>📸 Quick Peek</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1585386959984-a415522baf7c" alt="Cosmetics" />
+      <img src="https://images.unsplash.com/photo-1580910051074-1c1e1e6f1f3a" alt="Tech" />
+      <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238" alt="Academic" />
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Snacks" />
+      <img src="https://images.unsplash.com/photo-1602810316993-1f6b9e6f1e3a" alt="Fashion" />
+      <img src="https://images.unsplash.com/photo-1588776814546-ec7e6f3f1e3a" alt="Stationery" />
+    </div>
+  </section>
+
+  <section>
+    <h2>🎁 Packaging That Pops</h2>
+    <div class="card">
+      💌 Sleek envelopes for stationery  
+      📦 Mini boxes for beauty & tech items  
+      🍬 Snack packs with handwritten notes  
+      ✨ Custom wrapping available on request!
+    </div>
+  </section>
+
+  <section>
+    <h2>🗞️ Stay Updated</h2>
+    <div class="card">
+      Want latest deals and delivery tips?  
+      Join our email list now:
+      <br /><br />
+      <a class="btn" href="mailto:swiftfetchgh@gmail.com?subject=Newsletter Signup&body=Hi Swift-Fetch GH, I'd like to receive updates.">Subscribe via Email</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>💬 What Clients Say</h2>
+    <div style="overflow:hidden; max-width:300px; margin:auto;">
+      <marquee behavior="scroll" direction="left" scrollamount="4">
+        ⭐⭐⭐⭐⭐ "Same-day delivery? YES." – Ama | 
+        ⭐⭐⭐⭐ "Swift-Fetch is my plug!" – Kojo | 
+        ⭐⭐⭐⭐⭐ "Best hustle in Accra." – Nana
+      </marquee>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Swift-Fetch GH — Built by Hustle & Heart 🧡  
+    <br /> WhatsApp: <strong>0505562658</strong>  
+    <br /> Email: <a href="mailto:swiftfetchgh@gmail.com">swiftfetchgh@gmail.com</a>  
+    <br /> Order Link: <a href="https://forms.gle/1NDyHG5So3vykBUR6">Click here</a>
+  </footer>
+
+</body>
+</html>

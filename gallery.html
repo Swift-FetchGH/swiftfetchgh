@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Swift-Fetch GH</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    nav {
+      background-color: #ff8c00;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1em;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header {
+      text-align: center;
+      padding: 2em 1em;
+    }
+    header img {
+      width: 90px;
+      border-radius: 50%;
+    }
+    h1 {
+      color: #ff8c00;
+      margin-top: 0.5em;
+    }
+    section {
+      padding: 1.5em;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .grid-item {
+      text-align: center;
+    }
+    .grid-item img {
+      width: 130px;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .grid-item img:hover {
+      transform: scale(1.07);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5em 1em;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="order.html">Order</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <header>
+    <img src="https://images.unsplash.com/photo-1614448553874-cf2d2850fe46?crop=entropy&cs=tinysrgb&fit=crop&h=150&w=150" alt="Logo" />
+    <h1>Our Gallery</h1>
+  </header>
+
+  <section>
+    <div class="grid">
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1585386959984-a415522baf7c" alt="Cosmetics" />
+        <p>Cosmetics</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1580910051074-1c1e1e6f1f3a" alt="Tech Accessories" />
+        <p>Tech Accessories</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1596495577886-d920f1fb7238" alt="Academic Supplies" />
+        <p>Academic Supplies</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Snacks" />
+        <p>Snacks</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1602810316993-1f6b9e6f1e3a" alt="Fashion" />
+        <p>Fashion Accessories</p>
+      </div>
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1588776814546-ec7e6f3f1e3a" alt="Stationery" />
+        <p>Stationery</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Swift-Fetch GH — All images for preview purposes.  
+    <br /> WhatsApp: 0505562658  
+    <br /> Email: <a href="mailto:swiftfetchgh@gmail.com" style="color:#ffe4b5;">swiftfetchgh@gmail.com</a>
+  </footer>
+
+</body>
+</html>
